@@ -1,0 +1,50 @@
+"results": [
+    {
+    # "inside": [
+    #   "2e4b60fe09b7890c118d5401cb4acfe5"
+      ],  										
+    # "PCINECTA10": "N",  							
+*     "city_id": "Austin",			         	 
+      "_type": "geo.plac",							
+    # "FUNCSTAT10": "A",							      
+	  # "AWATER10": 18560605,							
+	  # "ALAND10": 771546901,
+	  # "LSAD10": "25",
+      "_domain_id": "4805000",
+      # "PLACENS10": "02409761",
+      # "md5id": "64987f7f2c9c2c43e3cabfc7fefb3caa",
+      # "PLACEFP10": "05000",
+      "_region": true,
+      "latitude": "-097.7559964",		
+*   # "PCICBSA10": "Y",								not in icss, not in geo.place
+      "geo_geometry_type": "Point",
+      "extended properties": [
+	    "long_name_from_census": "Austin City"
+ 	  ],	
+    # "CLASSFP10": "C1",
+      "state_id": "TX",
+      "longitude": "30.3071816",
+    #  "MTFCC10": "G4110",
+    #  "intersects": [
+    #   "ef75b5283366b13f780e17ca98d5f638",
+    #   "fc774452a92c1cde52f1f12583468a6c",
+      "latitude": -97.75547714199782,
+      "longitude: 30.306861051474787
+    },
+    {
+      #"BLKGRPCE10": "4",
+      #"COUNTYFP10": "453",
+      "_type": "cenus_block_group",
+      #"NAMELSAD10": "Block Group 4",
+      #"FUNCSTAT10": "S",
+      #"TRACTCE10": "001603",
+      #"AWATER10": 0,
+      #"ALAND10": 596777,
+      #"md5id": "2f12d38d11b2c246971de8a119980c41",
+      "_region": true,
+      "geo_geometry_type": "Point",
+      #"INTPTLAT10": "+30.2932980",
+      #"MTFCC10": "G5030",
+      "latitude": -97.75511844695392,
+      "longitude": 30.29329803803981
+      ],
