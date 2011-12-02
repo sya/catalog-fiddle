@@ -1,3 +1,2 @@
-This is the place where Selene parties down.
-
-WOOO
+Selene's place of contemplation.
+OMmm
