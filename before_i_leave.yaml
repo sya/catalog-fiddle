@@ -1,0 +1,45 @@
+# Recent ICSS Guideline changes
+
+
+* An avro typedef (in avro-land, known as a 'schema') is one of the following:
+  - a string identifying a primitive type
+  - a string identifying a named type
+  - a hash of raw material, which fed to the right TypeFac, produces a type
+  - an array of typedefs, representing a union type.
+
+A typedef hash has:
+
+* **name**:     name for the type
+* **doc**:      description of the type
+* **typefac**:  one of `record`, `array`, `map`, `fixed` or `enum`
+* **fields**    (if record)
+* **size**:     (if fixed)
+* **items**:    (if array)
+* **values**:   (if map)
+* **symbols**:  (if enum)
+
+# Notes from Meeting
+
+* Top level guidlines need to be better defined.
+* Including just parents means maing changes to code (minor)
+* Kurt: If we do something that is not normalized -> It needs to be **explicit**
+  - Must list parents
+  - Can list grandparents <-- This does not work.  Must make it **unambiguous**
+* Things considered - List the immediate parents first - List the parents/grandparents in a hash
+* The is_a is an array, Flip gave me a script to include everything...
+(WHERE IS THIS?)
+
+* _domain_id, leading `_` there for useres
+* Making ICSS lib simpler
+* "If I have a protcol and it's spelled types...avro calls schema a typedef..." ...an explanation given by Flip 
+* Huston is going to fix type:array to type:record
+* An avros schema (typedef) is different from schema (typedef)  = Very conflicting
+* Kurt "Making everything avro backward compatable is not priority.  Don't have to follow it closely, but it's 
+good to keep a balance" (For the future)
+* When avro has gaps in its expressive power, we'll fill that gap
+* Document with respects to avro compatibility
+
+# Additional Notes
+
+* Use this as an example of documentation
+* Make an internal mental state dump
