@@ -30,8 +30,7 @@ A typedef hash has:
 (WHERE IS THIS?)
 
 * _domain_id, leading `_` there for useres
-* Making ICSS lib simpler
-* "If I have a protcol and it's spelled types...avro calls schema a typedef..." ...an explanation given by Flip 
+* Making ICSS lib simpler 
 * Huston is going to fix type:array to type:record
 * An avros schema (typedef) is different from schema (typedef)  = Very conflicting
 * Kurt "Making everything avro backward compatable is not priority.  Don't have to follow it closely, but it's 
